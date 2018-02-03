@@ -1,2 +1,2 @@
 # petStop
-petstopinfo.com
+petstopinfo.net
