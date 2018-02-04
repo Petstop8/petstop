@@ -1,0 +1,96 @@
+/* petStop
+   Emily Wright*/
+
+   body {
+       margin: 0;
+       padding: 0;
+       /*background-color: #87CEFA;*/
+   }
+
+   #logo {
+       display: block;
+       float: left;
+       width: 250px;
+       height: 60px;
+       margin-top: 10pt;
+       padding-right: 35pt;
+       padding-left: 20pt;
+   }
+
+   #navigation {
+       display: block;
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       /*overflow: hidden;*/
+       color: black;
+   }
+
+   .top-menu {
+       background-color: white;
+       width: 100%;
+       height: 60pt;
+       position: fixed;
+       border-bottom: 2pt solid red;
+   }
+
+   li {
+       float: left;
+       height: 60pt;
+       text-align: center;
+   }
+
+   li a, .dropbtn {
+       bottom: 0;
+       font-size: 20pt;
+       display: block;
+       color: black;
+       text-align: center;
+       padding: 25pt 25pt;
+       text-decoration: none;
+   }
+
+   li a:hover, .dropdown:hover .dropbtn{
+       color: #3454b4;
+   }
+
+   .center-page {
+       box-sizing: border-box;
+       background-color: white;
+       width: 75%;
+       height: 1000pt;
+       margin: 0 auto;
+       padding-top: 50pt;
+       border-left: 2pt solid black;
+       border-right: 2pt solid black;
+       border-bottom: 2pt solid black;
+   }
+
+   li.dropdown {
+       display: inline-block;
+   }
+
+   .dropdown-content {
+       display: none;
+       position: absolwhitewhiteute;
+       /*background-color: #87CEFA;*/
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+   }
+
+   .dropdown-content a {
+       color: #3454b4;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       text-align: left;
+   }
+
+   .dropdown-content a:hover {
+       background-color: white;
+   }
+
+   .dropdown:hover .dropdown-content {
+       display: block;
+   }
