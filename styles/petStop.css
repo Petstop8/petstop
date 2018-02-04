@@ -43,13 +43,14 @@
        z-index: 900;
    }
 
-   li {
+   li a {
        float: left;
        height: 60pt;
        text-align: center;
        font-size: 20pt;
        padding: 25pt 25pt;
    }
+
 
    li a, .dropbtn {
        bottom: 0;
@@ -110,6 +111,7 @@
         vertical-align: middle;
         height: 750px;
         width: 100%;
+        min-width: 1500px;
     }
 
     /* Slideshow container */
@@ -208,13 +210,21 @@
       .prev, .next,.text {font-size: 11px}
     }
 
+    #FoodSelections, #GreatPetLinks div{
+        padding-top: 100pt;
+    }
 
-    .GreatPetLinks, .FoodSelections p {
+    #GreatPetLinks, #FoodSelections, #mapsDirections, #aboutUs p {
         padding-left: 20px;
-        font-size: 20pt;
+        font-size: 30pt;
         text-decoration: none;
     }
 
     .FoodSelections {
         padding-top: 50px;
+    }
+
+    iframe {
+        margin-left: 50px;
+        margin-bottom: 50px;
     }
