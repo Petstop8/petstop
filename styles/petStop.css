@@ -210,6 +210,22 @@
       .prev, .next,.text {font-size: 11px}
     }
 
+    #GreatPetLinks, #FoodSelections {
+        width: 1400px;
+        /*background-color: grey;*/
+        margin-left: 12%;
+    }
+
+    #GreatPetLinks a img, #FoodSelections a img {
+        width: 200px;
+        height: 150px;
+        padding: 5px;
+    }
+
+    #GreatPetLinks p, #FoodSelections p {
+        text-align: center;
+    }
+
     #FoodSelections, #GreatPetLinks div{
         padding-top: 100pt;
     }
