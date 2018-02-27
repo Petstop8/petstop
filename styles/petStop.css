@@ -291,8 +291,28 @@
         height: 176px;
     }
 
-    #GreatPetLinks p, #FoodSelections p, #mapsDirections p, #aboutUsHeader {
+    #GreatPetLinks p, #FoodSelections p, #aboutUsHeader {
         text-align: center;
+    }
+
+    #FoodSelections p, #GreatPetLinks p, #aboutUsHeader {
+        z-index: 10;
+        position: relative;
+    }
+
+    #FoodSelections p:before, #GreatPetLinks p:before, #aboutUsHeader:before {
+        border-top: 1px solid red;
+        content: "";
+        margin: 0 auto;
+        position: absolute;
+        width: 100%;
+        top: 20px; left: 0; right: 0; bottom: 0;
+        z-index: -10;
+    }
+
+    #FoodSelections p span, #GreatPetLinks p span, #aboutUsHeader span {
+        background-color:white;
+        padding: 0 15px;
     }
 
     #GreatPetLinks div{
@@ -313,7 +333,7 @@
     }
 
     #AUinfo, #AU {
-        font-size: 14pt;
+        font-size: 1vw;
         text-align: left;
         width: 600pt;
         margin-top: 0;
@@ -321,6 +341,9 @@
         float: left;
     }
 
+    #AUinfo {
+            padding-bottom: 80px;
+    }
 
     .p img {
         display: block;
