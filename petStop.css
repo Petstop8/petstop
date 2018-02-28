@@ -151,8 +151,8 @@
         position: relative;
         margin: 0;
         padding: 0;
-        margin-left: auto;
-        margin-right: auto;
+        margin-left: 0 auto;
+        margin-right: 0 auto;
     }
 
     /* Next & previous buttons */
