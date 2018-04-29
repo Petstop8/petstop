@@ -19,11 +19,11 @@
    }
 
    #catCartoon {
+       display: inline-block;
        width: 125pt;
        height: 69pt;
-       display: inline-block;
-       float: right;
-       margin-right: 40pt;
+       float:left;
+       margin-left: 2%;
    }
 
    #astrologo {
@@ -31,19 +31,27 @@
       width: 120px;
       display: inline-block;
       margin-top: 12pt;
-      margin-left: 20pt;
-      float: right;
-      margin-right: 50pt;
+      margin-left: 3%;
+      float: left;
    }
 
    #fblogo {
        height: 60px;
        width: 60px;
        display: inline-block;
-       float:right;
+       float: left;
        margin-top: 12pt;
-       margin-left: 5pt;
-       margin-right: 40pt;
+       margin-left: 5%;
+   }
+
+   #instalogo {
+       height: 60px;
+       width: 60px;
+       display: inline-block;
+       float: left;
+       margin-left: 3%;
+       margin-top: 12pt;
+
    }
 
    #astroBox {
@@ -51,6 +59,7 @@
        min-width: 280px;
        height: 100px;
        padding-top: 15px;
+       padding-left: 20px;
    }
 
    #navigation {
@@ -64,7 +73,7 @@
    .top-menu {
        background-color: white;
        width:100%;
-       min-width: 1400pt;
+       min-width: 1500pt;
        height: 70pt;
        position: fixed;
        border-bottom: 1pt solid red;
@@ -86,7 +95,7 @@
        display: block;
        color: black;
        text-align: center;
-       padding: 25pt 32pt;
+       padding: 25pt 2%;
        text-decoration: none;
    }
 
@@ -136,10 +145,13 @@
     }
 
     .mySlides img {
+        display: block;
         vertical-align: middle;
         height: 750px;
-        width: 100%;
-        min-width: 1500px;
+        /* width: 100%; */
+        width: 1500px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Slideshow container */
@@ -147,12 +159,9 @@
         width: 100%;
         min-width: 1500px;
         max-width: 2000px;
-        height: 750px;
+        height: auto;
         position: relative;
-        margin: 0;
         padding: 0;
-        margin-left: 0 auto;
-        margin-right: 0 auto;
     }
 
     /* Next & previous buttons */
@@ -224,6 +233,8 @@
       min-width: 200px;
       width: 300px;
       height: 150px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .btn {
@@ -241,6 +252,11 @@
       padding: 8px 12px;
       position: absolute;
       top: 0;
+    }
+    /* Div that contains transition dots */
+    #dotDiv {
+      text-align: center;
+      min-width: 1500pt;
     }
 
     /* The dots/bullets/indicators */
