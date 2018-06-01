@@ -7,7 +7,7 @@
        font-family: Verdana, sans-serif;
        margin:0;
    }
-
+   /* petStop Logo or image in top left of the page */
    #logo {
        display: block;
        float: left;
@@ -17,7 +17,7 @@
        padding-right: 35pt;
        padding-left: 20pt;
    }
-
+   /* cat cartoon image, top right screen */
    #catCartoon {
        display: inline-block;
        width: 125pt;
@@ -26,6 +26,7 @@
        margin-left: 2%;
    }
 
+   /* astro logo at top of page */
    #astrologo {
       height: 60px;
       width: 120px;
@@ -34,7 +35,7 @@
       margin-left: 3%;
       float: left;
    }
-
+   /* facebook logo at top of page */
    #fblogo {
        height: 60px;
        width: 60px;
@@ -43,7 +44,7 @@
        margin-top: 12pt;
        margin-left: 5%;
    }
-
+   /* instagram logo */
    #instalogo {
        height: 60px;
        width: 60px;
@@ -53,7 +54,7 @@
        margin-top: 12pt;
 
    }
-
+   /* Astro Image */
    #astroBox {
        width: 280px;
        min-width: 280px;
@@ -74,26 +75,20 @@
        background-color: white;
        width:100%;
        min-width: 1500pt;
-       height: 70pt;
+       /* height: 70pt; */
+       height: 6em;
        position: fixed;
        border-bottom: 1pt solid red;
        z-index: 900;
    }
 
+
    li a {
-       float: left;
-       height: 60pt;
-       text-align: center;
-       font-size: 15pt;
-       padding: 25pt 25pt;
-   }
-
-
-   li a, .dropbtn {
        bottom: 0;
        font-size: 20pt;
        display: block;
        color: black;
+       float: left;
        text-align: center;
        padding: 25pt 2%;
        text-decoration: none;
@@ -231,8 +226,8 @@
     }
 
     #foodImageText {
-      min-width: 170px;
-      width: 170px;
+      min-width: 300px;
+      width: 300px;
       height: 170px;
       margin-left: auto;
       margin-right: auto;
