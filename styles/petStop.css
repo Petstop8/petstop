@@ -200,7 +200,7 @@
     #foodImageText {
       min-width: 300px;
       width: 300px;
-      height: 200px;
+      height: 215px;
       margin-left: auto;
       margin-right: auto;
     }
@@ -208,7 +208,7 @@
     .btn {
       background-color: #B22222;
       color: white;
-      padding: 30px 100px;
+      padding: 45px 100px;
       border: none;
       font-size: 14pt;
     }
