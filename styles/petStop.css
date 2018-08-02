@@ -187,7 +187,7 @@
     /* Style for FOOD OF MONTH */
     #textFood {
       width: 380pt;
-      height: 250pt;
+      height: 350pt;
       bottom: 35%;
       left: 50%;
     }
@@ -200,7 +200,7 @@
     #foodImageText {
       min-width: 200px;
       width: 200px;
-      height: 200px;
+      height: 300px;
       margin-left: auto;
       margin-right: auto;
     }
