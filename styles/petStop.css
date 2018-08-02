@@ -198,7 +198,7 @@
     }
     /* Style for Food of the Month Image */
     #foodImageText {
-      min-width: 600px;
+      min-width: 200px;
       width: 300px;
       height: 400px;
       margin-left: auto;
