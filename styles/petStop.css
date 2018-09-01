@@ -194,12 +194,12 @@
     /* Styling for sentence describing food of month */
     #textFood p {
         margin-top: 0;
-      font-size: 16pt;
+      font-size: 14pt;
     }
     /* Style for Food of the Month Image */
     #foodImageText {
       min-width: 200px;
-      width: 300px;
+      width: 400px;
       height: 300px;
       margin-left: auto;
       margin-right: auto;
