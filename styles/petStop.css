@@ -116,8 +116,6 @@
     /* Slideshow container */
     .slideshow-container {
         width: 100%;
-        min-width: 1300px;
-        max-width: 1500px;
         height: auto;
         position: relative;
         padding: 0;
@@ -216,7 +214,7 @@
     /* Div that contains transition dots */
     #dotDiv {
       text-align: center;
-      min-width: 1500pt;
+      min-width: 100%;
     }
 
     /* The dots/bullets/indicators */
